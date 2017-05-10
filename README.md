@@ -1,2 +1,2 @@
 # LendingClubLoans
-Compressing Lending Club data from 2007-2011
+Compressing Lending Club data from 2007-2011.  This code develops a general function to compress CSV data files in Panda given memory constraints.  It finds the optimal chunk size and then proceeds to iterate over the various chunks to identify whether string variables should be changed to integers, string variables should be changed to categories, and whether floats can be converted to integer values.
